@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task3</title>
+    <script>
+        var username = prompt("Кто пришёл?", '');
+        if (username !== null) {
+            if (username == "Админ") {
+                var pass = prompt("Пароль?", '')
+                if (pass === null) alert("Вход отменён")
+                else if (pass == "Чёрный Властелин") {
+                    alert("Добро пожаловать!")
+                } else alert("Пароль неверен")
+            } else alert("Я вас не знаю");
+        } else alert("Отмена");
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
